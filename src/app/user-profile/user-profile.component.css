@@ -1,0 +1,22 @@
+.container {
+    width: 350px;
+    margin: auto;
+    margin-top: 150px;
+    border: black 4px solid;
+    border-radius: 6px;
+}
+
+.infoContainer {
+    margin: 5px;
+}
+
+.ageContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ageText {
+    margin: 0;
+    margin-left: 10px;
+}

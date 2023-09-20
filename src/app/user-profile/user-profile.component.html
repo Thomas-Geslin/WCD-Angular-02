@@ -1,0 +1,16 @@
+<div class="container">
+    <img [src]="user.photo" alt="a lego face" />
+
+    <div class="infoContainer">
+        <p>Nom : {{user.name}}</p>
+        <p>Prénom : {{user.firstName}}</p>
+    
+        <p>{{user.quote}}</p>
+        <input type="text" [(ngModel)]="user.quote">
+    
+        <div class="ageContainer">
+            <button (click)="hideAge()">Afficher/Masquer mon âge</button>
+            <p class="ageText" [hidden]="hidden">{{user.age}}</p>
+        </div>
+    </div>
+</div>
